@@ -24,7 +24,6 @@ For development tools:
 
 pip install -e .[dev]
 
-
 📦 Dependencies
 
 The following core packages are required to run the backend:
@@ -41,16 +40,18 @@ Optional (for development)
 
 Module  Description:
 
-sensor.py	measure with one sensor
-2 sensor_csv_mitteln.py measure with two sensors
-analyze.py	Signal processing and data analysis
+sensor.py	measure with two sensors(active)
+one_sensor.py measure with one sensor(passive)
+analyzer.py	Signal processing and data analysis
 config.py	Load, store, and apply configuration presets
-#utils.py	General helper functions
 
 
 🗺️ Example Usage (to be implemented)
 
-
+(recommended in virtual environment)
+start the backend with:
+    uvicorn main:app --reload
+and the frontend with python gui.py
 
 🧪 Testing
 
@@ -70,4 +71,4 @@ MIT License
 
 🛠 Project Status
 
-In development
+done, but changes are likely

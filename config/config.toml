@@ -1,0 +1,13 @@
+[acq]
+
+threshold = 60000
+ddt = 1000
+continuous_mode = false
+tr_enabled = true
+set_tr_decimation = 1
+set_tr_enabled = true
+set_tr_postduration = 1500
+set_tr_pretrigger = 2000
+status_interval = 0
+
+filter = { highpass=100, lowpass=200000, order=4}
